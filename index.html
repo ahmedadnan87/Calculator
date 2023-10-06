@@ -1,0 +1,50 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+   
+<div class="calculator">
+    <div class="display">
+      <input type="text" placeholder="0"  id="input" disabled />
+    </div>
+    <div class="buttons">
+      <!-- Full Erase -->
+      <input type="button" value="AC" onclick="del()" id="clear" />
+      <!-- Erase Single Value -->
+      <input type="button" onclick="clr()" value="DEL" id="erase" />
+      <input type="button" onclick="press('/')" value="/" class="input-button" />
+      <input type="button" onclick="press('*')" value="*" class="input-button" />
+      <input type="button" onclick="press(7)" value="7" class="input-button" />
+      <input type="button" onclick="press(8)" value="8" class="input-button" />
+      <input type="button" onclick="press(9)" value="9" class="input-button" />
+      <input type="button" onclick="press('-')" value="-" class="input-button" />
+      <input type="button" onclick="press(6)" value="6" class="input-button" />
+      <input type="button" onclick="press(5)" value="5" class="input-button" />
+      <input type="button" onclick="press(4)" value="4" class="input-button" />
+      <input type="button" onclick="press('+')" value="+" class="input-button" />
+      <input type="button" onclick="press(1)" value="1" class="input-button" />
+      <input type="button" onclick="press(2)" value="2" class="input-button" />
+      <input type="button" onclick="press(3)" value="3" class="input-button" />
+      <input type="button" onclick="eq()" value="="  id="equal" />
+      <input type="button" onclick="press(0)" value="0" class="input-button" />
+      <input type="button" onclick="mod()" value="%"  class="input-button" />
+
+    </div>
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
